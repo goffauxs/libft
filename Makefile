@@ -6,7 +6,7 @@
 #    By: sgoffaux <sgoffaux@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/04/05 12:04:24 by sgoffaux          #+#    #+#              #
-#    Updated: 2021/04/28 11:10:07 by sgoffaux         ###   ########.fr        #
+#    Updated: 2021/04/28 12:19:09 by sgoffaux         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -45,7 +45,8 @@ SRCS	=	srcs/ft_isascii.c \
 			srcs/ft_putendl_fd.c \
 			srcs/ft_putnbr_fd.c \
 			srcs/ft_itoa_hex.c \
-			srcs/ft_uitoa.c
+			srcs/ft_uitoa.c \
+			srcs/ft_strmap.c
 
 BONUS	=	bonus/ft_lstnew.c \
 			bonus/ft_lstadd_front.c \
