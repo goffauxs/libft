@@ -6,7 +6,7 @@
 /*   By: sgoffaux <sgoffaux@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/01 09:49:36 by sgoffaux          #+#    #+#             */
-/*   Updated: 2021/04/12 11:26:26 by sgoffaux         ###   ########.fr       */
+/*   Updated: 2022/09/14 12:03:14 by sgoffaux         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	unsigned char	*p_dest;
 	unsigned char	*p_src;
 
-	if (!dest && !src)
+	if ((!dest && !src) || dest == src)
 		return (NULL);
 	p_dest = (unsigned char *)dest;
 	p_src = (unsigned char *)src;
